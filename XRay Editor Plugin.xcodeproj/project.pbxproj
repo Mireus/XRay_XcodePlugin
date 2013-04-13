@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21055CE516C2FA5800BDCB7D /* XRColorBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21055CE416C2FA5800BDCB7D /* XRColorBackgroundView.m */; };
+		212DBBF2168F235300C56C98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212DBBF1168F235300C56C98 /* Cocoa.framework */; };
+		212DBC05168F238900C56C98 /* XRayEditorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 212DBC04168F238900C56C98 /* XRayEditorPlugin.m */; };
+		2131B73B1719F75F00AC1581 /* XRFeedbackData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2131B7381719F75F00AC1581 /* XRFeedbackData.m */; };
+		2131B73C1719F75F00AC1581 /* XRLogElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2131B73A1719F75F00AC1581 /* XRLogElement.m */; };
+		2192B20B1691927F00CD4343 /* XRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2192B20A1691927F00CD4343 /* XRScrollView.m */; };
+		21D5770E1699DADC00FC3034 /* XROutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D5770D1699DADC00FC3034 /* XROutlineView.m */; };
+		21E836C9169819BA003E1F97 /* XRCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E836C8169819BA003E1F97 /* XRCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21055CE316C2FA5800BDCB7D /* XRColorBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRColorBackgroundView.h; sourceTree = "<group>"; };
+		21055CE416C2FA5800BDCB7D /* XRColorBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRColorBackgroundView.m; sourceTree = "<group>"; };
+		212DBBEE168F235300C56C98 /* XRay Editor Plugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XRay Editor Plugin.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212DBBF1168F235300C56C98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		212DBBF4168F235300C56C98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		212DBBF6168F235300C56C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		212DBBF9168F235400C56C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212DBC03168F238900C56C98 /* XRayEditorPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRayEditorPlugin.h; sourceTree = "<group>"; };
+		212DBC04168F238900C56C98 /* XRayEditorPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRayEditorPlugin.m; sourceTree = "<group>"; };
+		2131B7371719F75F00AC1581 /* XRFeedbackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRFeedbackData.h; sourceTree = "<group>"; };
+		2131B7381719F75F00AC1581 /* XRFeedbackData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRFeedbackData.m; sourceTree = "<group>"; };
+		2131B7391719F75F00AC1581 /* XRLogElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRLogElement.h; sourceTree = "<group>"; };
+		2131B73A1719F75F00AC1581 /* XRLogElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRLogElement.m; sourceTree = "<group>"; };
+		2192B2091691927F00CD4343 /* XRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRScrollView.h; sourceTree = "<group>"; };
+		2192B20A1691927F00CD4343 /* XRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRScrollView.m; sourceTree = "<group>"; };
+		21D5770C1699DADC00FC3034 /* XROutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XROutlineView.h; sourceTree = "<group>"; };
+		21D5770D1699DADC00FC3034 /* XROutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XROutlineView.m; sourceTree = "<group>"; };
+		21E836C7169819BA003E1F97 /* XRCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCellView.h; sourceTree = "<group>"; };
+		21E836C8169819BA003E1F97 /* XRCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212DBBEB168F235300C56C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212DBBF2168F235300C56C98 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212DBBE3168F235300C56C98 = {
+			isa = PBXGroup;
+			children = (
+				212DBBF7168F235300C56C98 /* XRay Editor Plugin */,
+				212DBBF0168F235300C56C98 /* Frameworks */,
+				212DBBEF168F235300C56C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212DBBEF168F235300C56C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212DBBEE168F235300C56C98 /* XRay Editor Plugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212DBBF0168F235300C56C98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212DBBF1168F235300C56C98 /* Cocoa.framework */,
+				212DBBF3168F235300C56C98 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		212DBBF3168F235300C56C98 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212DBBF4168F235300C56C98 /* AppKit.framework */,
+				212DBBF6168F235300C56C98 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		212DBBF7168F235300C56C98 /* XRay Editor Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				21A82E1D1694CACB00696390 /* Data Objects */,
+				212DBBF8168F235400C56C98 /* Supporting Files */,
+				215662111711618D00072B6D /* Views */,
+				212DBC03168F238900C56C98 /* XRayEditorPlugin.h */,
+				212DBC04168F238900C56C98 /* XRayEditorPlugin.m */,
+			);
+			path = "XRay Editor Plugin";
+			sourceTree = "<group>";
+		};
+		212DBBF8168F235400C56C98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				212DBBF9168F235400C56C98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		215662111711618D00072B6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2192B2091691927F00CD4343 /* XRScrollView.h */,
+				2192B20A1691927F00CD4343 /* XRScrollView.m */,
+				21D5770C1699DADC00FC3034 /* XROutlineView.h */,
+				21D5770D1699DADC00FC3034 /* XROutlineView.m */,
+				21E836C7169819BA003E1F97 /* XRCellView.h */,
+				21E836C8169819BA003E1F97 /* XRCellView.m */,
+				21055CE316C2FA5800BDCB7D /* XRColorBackgroundView.h */,
+				21055CE416C2FA5800BDCB7D /* XRColorBackgroundView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		21A82E1D1694CACB00696390 /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				2131B7371719F75F00AC1581 /* XRFeedbackData.h */,
+				2131B7381719F75F00AC1581 /* XRFeedbackData.m */,
+				2131B7391719F75F00AC1581 /* XRLogElement.h */,
+				2131B73A1719F75F00AC1581 /* XRLogElement.m */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212DBBED168F235300C56C98 /* XRay Editor Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212DBC00168F235400C56C98 /* Build configuration list for PBXNativeTarget "XRay Editor Plugin" */;
+			buildPhases = (
+				212DBBEA168F235300C56C98 /* Sources */,
+				212DBBEB168F235300C56C98 /* Frameworks */,
+				212DBBEC168F235300C56C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XRay Editor Plugin";
+			productName = "XRay Editor Plugin";
+			productReference = 212DBBEE168F235300C56C98 /* XRay Editor Plugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212DBBE5168F235300C56C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Greg Kucsan";
+			};
+			buildConfigurationList = 212DBBE8168F235300C56C98 /* Build configuration list for PBXProject "XRay Editor Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 212DBBE3168F235300C56C98;
+			productRefGroup = 212DBBEF168F235300C56C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212DBBED168F235300C56C98 /* XRay Editor Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212DBBEC168F235300C56C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212DBBEA168F235300C56C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212DBC05168F238900C56C98 /* XRayEditorPlugin.m in Sources */,
+				2192B20B1691927F00CD4343 /* XRScrollView.m in Sources */,
+				21E836C9169819BA003E1F97 /* XRCellView.m in Sources */,
+				21D5770E1699DADC00FC3034 /* XROutlineView.m in Sources */,
+				21055CE516C2FA5800BDCB7D /* XRColorBackgroundView.m in Sources */,
+				2131B73B1719F75F00AC1581 /* XRFeedbackData.m in Sources */,
+				2131B73C1719F75F00AC1581 /* XRLogElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		212DBBFE168F235400C56C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		212DBBFF168F235400C56C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		212DBC01168F235400C56C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "XRay Editor Plugin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = /Developer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		212DBC02168F235400C56C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "XRay Editor Plugin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = /Developer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212DBBE8168F235300C56C98 /* Build configuration list for PBXProject "XRay Editor Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212DBBFE168F235400C56C98 /* Debug */,
+				212DBBFF168F235400C56C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212DBC00168F235400C56C98 /* Build configuration list for PBXNativeTarget "XRay Editor Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212DBC01168F235400C56C98 /* Debug */,
+				212DBC02168F235400C56C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 212DBBE5168F235300C56C98 /* Project object */;
+}
