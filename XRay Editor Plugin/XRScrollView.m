@@ -952,7 +952,10 @@
                 break;
             }
             case 4:{
-                if (liveCode) {
+                
+                if (float_equal(0, [[inputArray objectAtIndex:3] floatValue])) {
+                    returnString = @"clearColor";
+                } else if (liveCode) {
                     returnString = [NSString stringWithFormat:@"colorWithRed:%1.3f green:%1.3f blue:%1.3f alpha:%1.3f",[[inputArray objectAtIndex:0] floatValue],[[inputArray objectAtIndex:1] floatValue],[[inputArray objectAtIndex:2] floatValue],[[inputArray objectAtIndex:3] floatValue]];
                 } else {
                     returnString = [NSString stringWithFormat:@" r:%1.3f g:%1.3f b:%1.3f a:%1.3f",[[inputArray objectAtIndex:0] floatValue],[[inputArray objectAtIndex:1] floatValue],[[inputArray objectAtIndex:2] floatValue],[[inputArray objectAtIndex:3] floatValue]];
