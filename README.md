@@ -1,10 +1,12 @@
 XRay-XcodePlugin
 ================
 
-Xcode plugin for XRay Editor transfers all your changes from Xray Editor back to Xcode
+Xray Plugin for Xcode transfers all your changes from Xray Editor back to your code in Xcode.
 
-Installation is as simple as:
+Installation:
 
-1. Build the project in Xcode
+Build the project in Xcode & restart Xcode
 
-2. Restart Xcode
+Usage:
+
+Press ⌘⇧x and see a list of your changes made in Xray Editor. To insert the changes into the code select them one by one or select the parent UI element and insert all of its changes.
